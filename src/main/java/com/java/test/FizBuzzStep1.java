@@ -6,7 +6,7 @@ import static com.java.test.Utility.*;
 
 
 public class FizBuzzStep1 {
-    private String separator = " ";
+
 
     public String getFizzBuzz(int fromRange, int toRange) {
         StringBuilder output = new StringBuilder();

@@ -18,7 +18,6 @@ import static org.junit.Assert.assertEquals;
 public class FizBuzzStep3Test extends BaseTest{
 
     private FizBuzzStep3 fizBuzzStep;
-
     public FizBuzzStep3Test(int from, int to, String expectedMessage ) {
         super(from, to, expectedMessage);
     }

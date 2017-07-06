@@ -1,10 +1,14 @@
 package com.java.test;
 
+import java.util.Arrays;
+import java.util.function.Predicate;
+
+
 /**
  * Created by nikhi on 05/07/2017.
  */
 public class Utility {
-
+    public static String separator = " ";
     public static boolean isDivisibleBy3(int n) {
         return n % 3 == 0;
     }
@@ -25,4 +29,7 @@ public class Utility {
         }
         return false;
     }
+
+
+
 }
