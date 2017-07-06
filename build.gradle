@@ -1,0 +1,26 @@
+group 'com.java.test'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'org.junit.platform.gradle.plugin'
+
+sourceCompatibility = 1.8
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'org.junit.platform:junit-platform-gradle-plugin:1.0.0-M4'
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+ext.junitVersion = '4.12'
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: junitVersion
+}
